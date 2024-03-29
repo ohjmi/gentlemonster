@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="jmweb">
+    <meta name="description" content="portfolio, Flex 구조">
+    <title>Project Gentle Monster</title>
+    <!-- Meta Data : FaceBook-->
+    <meta property="og:image" content="./images/">
+    <meta property="og:title" content="프로젝트 타이틀">
+    <meta property="og:description" content="프로젝트 상세설명">
+    <meta property="og:url" content="프로젝트 url 주소">
+    <meta property="og:locale" content="메인 서비스 국가">
+    <meta property="og:site_name" content="프로젝트 사이트 이름">
+    <meta property="og:type" content="프로젝트 종류">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Favicon PC / Mobile-->
+    <link rel="shorcut icon" href="./images/favicon/fav_32.png">
+    <link rel="shorcut icon" href="./images/favicon/fav_180.png">
+    <link rel="apple-touch-icon=precomposed" href="./images/">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/notosans_kr_CDN.css">
+    <link rel="stylesheet" href="./css/font.css">
+    
+    <!-- HTML5 JS File -->
+    <script src="./js/html5shiv.js"></script>
+    <script src="./js/respond.src.js"></script>
+    <!-- JQ PlugIn -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <!-- PreFix Free -->
+    <script src="./js/prefixfree.min.js"></script>
+    
+    <!-- 프로젝트 페이지 SCRIPT -->
+    
+    <!-- 프로젝트 페이지 CSS -->
+    <link rel="stylesheet" href="./css/gentle.css">
+    
+    <!-- 박스슬라이더 플러그인 -->
+    <script src="./js/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+</head>
+<body>
+   <div id="wrap">
+       <!-- Aside Popup -->
+       <aside>
+           <div class="top_sub w1300">
+               <p>
+                   지금 실시간 라이브 채팅 서비스를 만나보세요.
+               </p>
+               <p>
+                   운영시간 월요일-금요일 9:00-18:00 &nbsp;&nbsp;
+                   <a href="#"><img src="./images/i_images/arrow.png" alt="채팅하기"></a>
+               </p>
+               <p class="close">
+                   <a href="#"><img src="./images/i_images/ex.png" alt="x자버튼"></a>
+               </p>
+           </div>
+       </aside>
+       <!-- /Aside Popup -->
+       <!-- Header -->
+       <header>
+           <!-- Logo + Lnb Menu -->
+           <div class="lnb_all">
+               <div class="root_lnb w1300">
+                   <!-- Logo -->
+                    <h1>
+                       <a href="index.html"><img src="./images/logo.png" alt="젠틀몬스터로고"></a>
+                    </h1>
+                    <!-- /Logo -->
+                    <!-- Lnb Menu -->
+                    <nav class="local">
+                        
+                        <ul class="lnb">
+                            <li><a href="#"><img src="./images/i_images/search.png" alt="검색아이콘"></a></li>
+                            <li><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                            <li><a href="#"><img src="./images/i_images/shoppingbag.png" alt="장바구니아이콘"></a></li>
+                        </ul>
+                    </nav>
+                    <!-- /Lnb Menu -->
+                </div>
+            </div>
+            <!-- /Logo + Lnb Menu -->
+            
+            <!-- Gnb Menu -->
+            <div class="gnb_all">
+                <div class="w1300">
+                    <nav class="global">
+                        <!-- Hamburger Menu -->
+                        <div class="ham_menu_btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- /Hamburger Menu -->
+                        <ul class="gnb">
+                            <li>
+                                <a href="#">Sunglasses</a>
+                                <ul class="submenu">
+                                    <li><a href="#">전체보기</a></li>
+                                    <li><a href="#">2022 컬렉션</a></li>
+                                    <li><a href="#">베스트셀러</a></li>
+                                    <li><a href="#">선물추천</a></li>
+                                    <li><a href="#">클래식 디자인</a></li>
+                                </ul>
+                            </li>    
+                            <li>
+                                <a href="#">Glasse</a>
+                                <ul class="submenu">
+                                    <li><a href="#">베스트셀러</a></li>
+                                    <li><a href="#">틴트렌즈</a></li>
+                                    <li><a href="#">블루라이트 차단</a></li>
+                                    <li><a href="#">사각 프레임</a></li>
+                                    <li><a href="#">원형 프레임</a></li>
+                                </ul>
+                            </li>    
+                            <li>
+                                <a href="#">Collaborations</a>
+                                <ul class="submenu">
+                                    <li><a href="#">젠틀가든</a></li>
+                                    <li><a href="#">코페르니</a></li>
+                                    <li><a href="#">헤론 프레스톤</a></li>
+                                    <li><a href="#">엠부쉬</a></li>
+                                    <li><a href="#">마린 세르</a></li>
+                                </ul>
+                            </li>    
+                            <li>
+                                <a href="#">Stores</a>
+                                <ul class="submenu">
+                                    <li><a href="#">대한민국</a></li>
+                                    <li><a href="#">타이완 지역</a></li>
+                                    <li><a href="#">미국</a></li>
+                                    <li><a href="#">싱가포르</a></li>
+                                    <li><a href="#">영국</a></li>
+                                </ul>
+                            </li>    
+                            <li>
+                                <a href="#">Brand issue</a>
+                                <ul class="submenu">
+                                    <li><a href="#">2022 프리 컬렉션</a></li>
+                                    <li><a href="#">하우스 상하이</a></li>
+                                    <li><a href="#">몽클레르 지니어스</a></li>
+                                    <li><a href="#">제페토</a></li>
+                                    <li><a href="#">젠틀 컬렉션</a></li>
+                                </ul>
+                            </li>    
+                        </ul>
+                        <ul class="snb">
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">미디어</a></li>
+                            <li><a href="#">기업소개</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <!-- /Gnb Menu -->
+       </header>
+       <!-- /Header -->
+
+       <!-- Slider -->
+       <article>
+           <div id="gallery_wrap">
+               <h2 class="slider">
+                    <p><img src="./images/m_images/main01.jpg" alt="슬라이더이미지1"></p>
+                    <p><img src="./images/m_images/main02.jpg" alt="슬라이더이미지2"></p>
+                    <p><img src="./images/m_images/main03.jpg" alt="슬라이더이미지3"></p>
+               </h2>
+           </div>
+       </article>
+       <!-- /Slider -->
+
+       <!-- Contents -->
+       <main role="main">
+        <!-- Section 01-->
+        <section class="md_pick w1300">
+                <h2>
+                    <img src="./images/p_images/store.gif" alt="움짤영상" width="620" height="480">
+                </h2>
+                <h3>
+                    <img src="./images/store.png" alt="스토어">
+                    <div class="md_pick_area">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h4>드리머 17 PC1</h4>
+                                        <span>249,000원</span>
+                                    </div>
+                                    <img src="./images/p_images/product01.jpg" alt="엠디픽제품01">
+                                </a>
+                            </li>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h4>로지 01(BRG)</h4>
+                                        <span>269,000원</span>
+                                    </div>
+                                    <img src="./images/p_images/product02.jpg" alt="엠디픽제품02">
+                                </a>
+                            </li>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <div>
+                                        <h4>블링 02</h4>
+                                        <span>260,000원</span>
+                                    </div>
+                                    <img src="./images/p_images/product03.jpg" alt="엠디픽제품03">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <p>
+                        <a href="#"><img src="./images/moreview.png" alt="전체상품보기"></a>
+                    </p>
+                </h3>
+        </section>
+        <!-- /Section 01 -->
+        
+        <!-- Section 02 -->
+        <section class="real_title">
+            <h2 class="real_time w1300">
+                <ul>
+                    <li><a href="#"><img src="./images/fendicollabo.png" alt="펜디타이틀이미지"></a></li>
+                    <li><a href="#">#GentleFendi</a></li>
+                    <li><a href="#">#Collaboration</a></li>
+                    <li><a href="#">#futurism</a></li>
+                    <li><a href="#">#contemporary</a></li>
+                    <li><a href="#"><img src="./images/moreview.png" alt="전체영상보기"></a></li>
+                </ul>
+                <figure>
+                    <video id="gentle_video" width="800" height="450">
+                        <source src="./media/FENDI X GENTLE.mp4" type="video/mp4">
+                    </video>
+                </figure>
+                <!-- /Video MP4 삽입 -->
+                <!-- Video 제어버튼 -->
+                <button id="gentle_btn">
+                    <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+                </button>
+            <!-- /Video 제어버튼 -->
+            </h2>
+        </section>
+        <!-- /Section 02 -->
+        <!-- Section 03 -->
+        <section class="caxa w1300">
+            <h2>
+                <img src="./images/collction.png" alt="콜렉션타이틀">
+            </h2>
+            <div class="caxa_sns">
+                <ul class="sns01">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Gentle Fendi</h5>
+                                <span>골드 코퍼</span>
+                            </div>
+                            <img src="./images/c_images/collection01.jpg" alt="COLLECTION 제품01">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Gentle Fendi</h5>
+                                <span>다크 하바나</span>
+                            </div>
+                            <img src="./images/c_images/collection02.jpg" alt="COLLECTION 제품02">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sns02">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Whitesun Campaign</h5>
+                                <span>탐부 W1</span>
+                            </div>
+                            <img src="./images/c_images/collection03.jpg" alt="COLLECTION 제품03">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sns03">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>New Flatba Series</h5>
+                                <span>마이 마 01</span>
+                            </div>
+                            <img src="./images/c_images/collection04.jpg" alt="COLLECTION 제품04">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>New Flatba Series</h5>
+                                <span>솔로 01</span>
+                            </div>
+                            <img src="./images/c_images/collection05.jpg" alt="COLLECTION 제품05">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Tokyo Oerus</h5>
+                                <span>트위스트 02</span>
+                            </div>
+                            <img src="./images/c_images/collection06.jpg" alt="COLLECTION 제품06">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Tokyo Oerus</h5>
+                                <span>빕 R1</span>    
+                            </div>
+                            <img src="./images/c_images/collection07.jpg" alt="COLLECTION 제품07">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Jentle Home</h5>
+                                <span>제니-쿠쿠 01</span>
+                            </div>
+                            <img src="./images/c_images/collection08.jpg" alt="COLLECTION 제품08">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div>
+                                <h5>Jentle Home</h5>
+                                <span>제니-인 더 무드 02</span>
+                            </div>
+                            <img src="./images/c_images/collection09.jpg" alt="COLLECTION 제품09">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>
+                <a href="#"><img src="./images/moreview.png" alt="전체리뷰보기"></a>
+            </p>
+        </section>
+        <!-- /Section 03 -->
+       </main>
+       <!-- /Contents -->
+       <!-- Footer -->
+       <footer>
+           <div class="footer_total w1300">
+               <div class="footer_left">
+                   <nav>
+                       <ul class="footer_gnb">
+                           <li><a href="#">이용약관&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+                           <li><a href="#">쇼핑몰&nbsp;이용안내&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+                           <li><a href="#">개인정보처리방침&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+                           <li><a href="#">고객센터&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+                           <li><a href="#">1:1문의&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>
+                           <li><a href="#">매장안내&nbsp;&nbsp;|</a></li>
+                       </ul>
+                   </nav>
+                   <div class="footer_info">
+                        <p>
+                            (주)아이아이컴바인드 | 대표자명 : 김한국 | <br>
+                            사업자등록번호 : 119-86-38589 |통신판매신고번호 :  제 2014-서울마포-1050 호 <br>
+                            주소 : 서울특별시 마포구 어울마당로5길 41 | 대표전화 : 02-1600-2126 <br>
+                        </p>
+                        <p class="footer_escrow">
+                            <span>
+                                고객님의 안전거래를 위해 현금 결제시, <br>
+                                구매안전 서비스를 이용하실 수 있습니다 [가입사실확인]
+                            </span>
+                            <img src="./images/escrow.png" alt="안전거래확인이미지">
+                        </p>
+                        <p>
+                            Copyright &copy; 2022 GENTLE MONSTER., Ltd All rights Reserved
+                        </p>
+                   </div>
+               </div>
+               <div class="footer_right">
+                   <dl>
+                       <dt>고객만족센터</dt>
+                       <dd>02-1600-2126</dd>
+                       <dd>평일 09:00 ~ 18:00 | 점심 13:00 ~ 14:00</dd>
+                   </dl>
+                   <dl>
+                       <dt>BANK INFO</dt>
+                       <dd>국민은행 803-41-056422</dd>
+                       <dd>예금주 : (주)아이아이컴바인드</dd>
+                   </dl>
+               </div>
+           </div>
+       </footer>
+       <!-- /Footer -->
+   </div>
+   <script src="./js/gentle.js"></script> 
+</body>
+</html>
